@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | awk '{print $0","}' | sed 's/,$/\n/' | sort -t. -k1.4n -k2
+(echo .; echo ..; ls | sort -t. -k1.4n -k2 | awk '{if ($0 !~ /^\./) print $0}') | awk '{print $0","}' | sed 's/,$/\n/'
