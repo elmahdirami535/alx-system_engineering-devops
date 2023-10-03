@@ -1,2 +1,2 @@
-#!/bin/bash            #this is a sheban line
-ls -t . | head         #
+#!/bin/bash
+ls -t . | head

@@ -1,2 +1,2 @@
-#!/bin/bash                                            #this is a shebang line
+#!/bin/bash
 egrep ^[[:alpha:]] /etc/ssh/sshd_config
