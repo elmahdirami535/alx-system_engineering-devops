@@ -1,2 +1,2 @@
-#!/bin/bash                #this is a sheban line
+#!/bin/bash
 head /etc/passwd

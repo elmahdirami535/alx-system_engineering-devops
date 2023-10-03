@@ -1,2 +1,2 @@
-#!/bin/bash                  #this is a sheban line
+#!/bin/bash
 head -3 iacta | tail -1
